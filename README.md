@@ -75,7 +75,7 @@ We implement and evaluate a **multi-output neural network virtual sensor** that:
 | **3** | Week 6 | Comparative ML (tips regression, Titanic classification) | ✅ Complete |
 | **4** | Weeks 7–8 | Project scoping and virtual sensor planning | ✅ Complete |
 | **5** | Weeks 9–10 | Initial virtual sensor model and baselines | ✅ Complete |
-| **6** | Winter break - Feb, 2026 | **Full report: methods, results, discussion** | 🔄 In Progress |
+| **6** | Winter break - Feb, 2026 | **Full report: methods, results, discussion** | 🔄 Finished manuscript |
 | **7** | Feb-March,2026 | Unsupervised learning and CNN mini-projects | 📅 Planned |
 
 **Current Activities (Winter Break):**
@@ -467,24 +467,22 @@ This repository documents the complete learning progression from ML fundamentals
 ```
 Machine-Learning-for-Thermodynamic-Property-dataset-URS-/
 │
-├── README.md                                    # This file
-├── Updated_Progress_Log.md                      # Detailed week-by-week log
-├── Virtual_Sensor_KeyInputs_Rewrite.md          # 6-input design justification
-├── Virtual_Sensor_Multi_Architecture.md         # Multi-tier architecture guide
+├── README.md
+├── Updated_Progress_Log.md
+├── Virtual_Sensor_KeyInputs_Rewrite.md
+├── Virtual_Sensor_Multi_Architecture.md
 │
-├── virtual_sensor/                              # Main virtual sensor project
-│   ├── Data_vaibhav_colored.csv                 # Raw engine data
-│   ├── df_processed.csv                         # Processed & normalized data
-│   │
+├── virtual_sensor/
+│   ├── Data_vaibhav_colored.csv
+│   ├── df_processed.csv
 │   ├── src/
-│   │   ├── OLS_linear_reg.py                    # Baseline: ordinary least squares
-│   │   ├── randomForest.py                      # Baseline: random forest
-│   │   ├── SVR.py                               # Baseline: support vector regression
-│   │   ├── ann_only_key-visual.py               # 6-input multi-output ANN + viz
-│   │   ├── ann_key_sensitivity.py               # Permutation sensitivity analysis
-│   │   └── (planned) virtual_sensor_lstm.py     # LSTM temporal monitor
-│   │
-│   └── visual/                                  # Generated visualizations
+│   │   ├── OLS_linear_reg.py
+│   │   ├── randomForest.py
+│   │   ├── SVR.py
+│   │   ├── ann_only_key-visual.py
+│   │   ├── ann_key_sensitivity.py
+│   │   └── (planned) virtual_sensor_lstm.py
+│   └── visual/
 │       ├── pairplot_MF_IA.png
 │       ├── pairplot_NOx_EO.png
 │       ├── pairplot_SOC.png
@@ -493,18 +491,23 @@ Machine-Learning-for-Thermodynamic-Property-dataset-URS-/
 │       ├── viz_6_metrics_heatmap.png
 │       └── ann_key_sensitivity_*.png
 │
-├── src/                                         # Learning journey projects
-│   ├── complete_ann_model.py                    # Phase 2: Medical insurance ANN
-│   ├── ANN_tip.py                               # Phase 3: Tips regression
-│   ├── titanic_ann_classification.py            # Phase 3: Titanic classification
-│   │
-│   ├── (planned) unsupervised/                  # Phase 5: Clustering & PCA
-│   └── (planned) cnn/                           # Phase 5: Convolutional networks
+├── src/
+│   ├── complete_ann_model.py
+│   ├── ANN_tip.py
+│   ├── titanic_ann_classification.py
+│   ├── Kaggle_Iris_species_code/          # Iris PCA + clustering + classification scripts
+│   └── (planned) cnn/
 │
-└── reports/                                     # Technical reports
+├── unsupervised_learning/
+│   └── Iris species/
+│       ├── Iris.csv
+│       └── (notebooks / notes for PCA + clustering analysis)
+│
+└── reports/
     ├── medical_insurance_report.pdf
     ├── tips_analysis.pdf
     └── titanic_classification_report.pdf
+
 ```
 
 ---
