@@ -75,8 +75,8 @@ We implement and evaluate a **multi-output neural network virtual sensor** that:
 | **3** | Week 6 | Comparative ML (tips regression, Titanic classification) | ✅ Complete |
 | **4** | Weeks 7–8 | Project scoping and virtual sensor planning | ✅ Complete |
 | **5** | Weeks 9–10 | Initial virtual sensor model and baselines | ✅ Complete |
-| **6** | Winter break | **Full report: methods, results, discussion** | 🔄 In Progress |
-| **7** | Early spring | Unsupervised learning and CNN mini-projects | 📅 Planned |
+| **6** | Winter break - Feb, 2026 | **Full report: methods, results, discussion** | 🔄 In Progress |
+| **7** | Feb-March,2026 | Unsupervised learning and CNN mini-projects | 📅 Planned |
 
 **Current Activities (Winter Break):**
 - Finalizing written report (methodology, results, discussion, conclusion)
@@ -549,7 +549,7 @@ Machine-Learning-for-Thermodynamic-Property-dataset-URS-/
 If you use this work in your research, please cite:
 ```bibtex
 @misc{urs_virtual_sensor_2026,
-  author = {[Your Name]},
+  author = {[Siqi Dai]},
   title = {Multi-Architecture Neural Network Virtual Sensor for Diesel Engine Combustion Prediction},
   year = {2026},
   institution = {University of Wisconsin–Madison},
