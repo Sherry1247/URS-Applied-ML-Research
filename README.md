@@ -1,8 +1,8 @@
-# Machine Learning for Virtual Sensor Development
+# URS-Applied-ML-Research
 
 **Multi-Architecture Neural Network Virtual Sensor for Diesel Engine Combustion Prediction**
 
-[![Project Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)](https://github.com/Sherry1247/Machine-Learning-for-Thermodynamic-Property-dataset-URS-)
+[![Project Status](https://img.shields.io/badge/Status-Active%20Development-brightgreen)](https://github.com/Sherry1247/URS-Applied-ML-Research)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
 
@@ -75,13 +75,14 @@ We implement and evaluate a **multi-output neural network virtual sensor** that:
 | **3** | Week 6 | Comparative ML (tips regression, Titanic classification) | ✅ Complete |
 | **4** | Weeks 7–8 | Project scoping and virtual sensor planning | ✅ Complete |
 | **5** | Weeks 9–10 | Initial virtual sensor model and baselines | ✅ Complete |
-| **6** | Winter break - Feb, 2026 | **Full report: methods, results, discussion** | 🔄 Finished manuscript |
-| **7** | Feb-March,2026 | Unsupervised learning and CNN mini-projects | 📅 Planned |
+| **6** | Winter break - Feb, 2026 | **Full report: methods, results, discussion** | ✅ Finished manuscript |
+| **7** | Feb-March, 2026 | Unsupervised learning and CNN mini-projects | 📅 Planned |
+| **8** | March 2026 | **Object detection and self-refinement project exploration** | 🔄 Current Focus |
 
-**Current Activities (Winter Break):**
-- Finalizing written report (methodology, results, discussion, conclusion)
-- Refining visualizations and sensitivity analysis
+**Current Activities (March 2026):**
+- **Phase 8:** Exploring object detection architectures and self-refinement projects
 - Preparing for Phase 7 expansion into unsupervised learning and CNNs
+- Finalizing the full manuscript for Phase 6
 
 📄 Detailed progress tracking: [`Updated_Progress_Log.md`](Updated_Progress_Log.md)
 
@@ -465,7 +466,7 @@ This repository documents the complete learning progression from ML fundamentals
 
 ## Repository Structure
 ```
-Machine-Learning-for-Thermodynamic-Property-dataset-URS-/
+URS-Applied-ML-Research/
 │
 ├── README.md
 ├── Updated_Progress_Log.md
@@ -558,7 +559,7 @@ If you use this work in your research, please cite:
   institution = {University of Wisconsin–Madison},
   type = {Undergraduate Research Scholars Project},
   supervisor = {Dr. Gupta},
-  url = {https://github.com/Sherry1247/Machine-Learning-for-Thermodynamic-Property-dataset-URS-}
+  url = {https://github.com/Sherry1247/URS-Applied-ML-Research}
 }
 ```
 
@@ -569,7 +570,7 @@ If you use this work in your research, please cite:
 **Research Advisor:** Dr. Gupta  
 **Institution:** University of Wisconsin–Madison  
 **Program:** Undergraduate Research Scholars (URS)  
-**GitHub:** [Sherry1247/Machine-Learning-for-Thermodynamic-Property-dataset-URS-](https://github.com/Sherry1247/Machine-Learning-for-Thermodynamic-Property-dataset-URS-)
+**GitHub:** [Sherry1247/URS-Applied-ML-Research](https://github.com/Sherry1247/URS-Applied-ML-Research)
 
 For questions, collaboration inquiries, or feedback:
 - 📧 Use GitHub Issues for technical questions
@@ -597,7 +598,7 @@ For commercial applications or dataset access, please contact the project superv
 ---
 
 **Project Status:** 🟢 Active Development  
-**Last Updated:** February 2026  
+**Last Updated:** March 2026  
 **Version:** 3.0 (Production-Ready Virtual Sensor)  
 **Documentation Quality:** Research-Grade
 
